@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Parv Arora and Aaakash Saini">
+    <meta name="Description" content="This is the home page of project">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="script/script.js"></script>
+    <style>
+        .images {
+            position: relative;
+            width: 100%;
+        }
+
+        .one {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 0;
+            height: 40%;
+            width: 40%;
+        }
+
+        .two {
+            position: absolute;
+            right: 0%;
+            top: 0%;
+            height: 40%;
+            width: 40%;
+            z-index: 1;
+        }
+
+        .three {
+            position: absolute;
+            left: 30%;
+            top: 0%;
+            height: 44%;
+            width: 35%;
+            z-index: 2;
+        }
+
+        .four {
+            position: absolute;
+            left: 60%;
+            top: 25%;
+            height: 40%;
+            width: 40%;
+            z-index: 3;
+        }
+
+        .five {
+            position: absolute;
+            left: 0;
+            top: 40%;
+            height: 47%;
+            width: 40%;
+            z-index: 4;
+        }
+
+        .six {
+            position: absolute;
+            left: 35%;
+            top: 46%;
+            height: 41%;
+            width: 40%;
+            z-index: 5;
+        }
+
+        .seven {
+            position: absolute;
+            left: 60%;
+            top: 46%;
+            height: 41%;
+            width: 40%;
+            z-index: 6;
+        }
+
+        .eight {
+            position: absolute;
+            left: 26%;
+            top: 15%;
+            height: 45%;
+            width: 35%;
+            z-index: 7;
+        }
+        img:hover{
+            
+            text-align: center;  
+        }
+    </style>
+    <script>
+        var topIndex = 8;
+        function bringToTop(thisimage) {
+            thisimage.style.zIndex = ++topIndex;
+        }
+    </script>
+    <title>Save the Embryo</title>
+</head>
+
+<body>
+    <header>
+        <div id="forUpper">
+            <span>
+                <h1>Save the Embryo</h1>
+                <p id="forMoto">Ensuring Lasting Change for Life</p>
+            </span>
+            <img id="forLogo" src="images/logo.png" alt="organization logo">
+        </div>
+        <div id="forNav">
+            <br>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="Donate.html">Donate/Volunteer</a>
+                <a href="Events.html">Events</a>
+                <a href="ImageGallery.html">Image Gallery</a>
+            </nav>
+            <br>
+        </div>
+        <br>
+    </header>
+
+
+    <section class="images">
+
+        <img src="images/ImageGallery/one.jpg" alt="volunteers" class="one" onmouseover="bringToTop(this);">
+        <img src="images/ImageGallery/two.jpg" alt="tree" class="two" onmouseover="bringToTop(this);">
+        <img src="images/ImageGallery/three.jpg" alt="coloured hand tree" class="three" onmouseover="bringToTop(this);">
+        <img src="images/ImageGallery/four.jpg" alt="tree in hands" class="four" onmouseover="bringToTop(this);">
+        <img src="images/ImageGallery/five.jpg" alt="garbage" class="five" onmouseover="bringToTop(this);">
+        <img src="images/ImageGallery/six.jpg" alt="tree cut" class="six" onmouseover="bringToTop(this);">
+        <img src="images/ImageGallery/seven.jpg" alt="plant with manure" class="seven" onmouseover="bringToTop(this);">
+        <img src="images/ImageGallery/eight.jpg" alt="plant nursery" class="eight" onmouseover="bringToTop(this);">
+
+    </section>
+
+
+
+
+
+
+    <br>
+
+    <footer>
+
+        <em>Web Development Project by Aakash Saini &copy; 2019</em>
+    </footer>
+</body>
+
+</html>

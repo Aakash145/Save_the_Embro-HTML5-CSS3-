@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+}
+html,body{height: 100%;
+width: 100%;}
+header{
+    min-height: 20%;
+    width: 100%;
+}
+section{
+    height: 76%;
+    width: 100%;;
+}
+body{
+   
+    
+    padding: 10px;
+    margin: 10px;
+    color: #292826;
+    background-color: #eef9fb;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #292826;
+    padding: 10px;
+    transition: all .2s linear;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #eef9fb;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+h1{
+    margin-top: -10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    opacity: 0.9;
+    background-color: #FF9473;
+    border-radius: 10px;
+}
+
+
+#forUpper{
+    display: flex;
+    
+}
+
+#forLogo{
+    float: right;
+    margin-left: auto;
+    opacity: 0.8;
+}
+
+.forLeftAlign{
+    margin-left: 25px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#forMoto{
+    margin-top: -20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#forLogo{
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    opacity: 0.9;
+    background-color: #FF9473;
+    border-radius: 10px;
+}
+
+
+article{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#forVideo{
+    margin: auto;
+    margin-left: 2%;
+}
+.forAboutUsSection{
+    width: 100%;;
+}
+#theVideo{
+    box-shadow: 0 0 1em 1em #ccc;
+    border-radius: 10px;
+}
+
+#forData{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#forAboutUs{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
+
+#forAboutUsMoto{
+    font-weight: bold;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.slider-container
+ {
+ width: 800px;
+ height: 400px;
+ background-color: #E5EDF8;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 0px;
+ text-align: center;
+ overflow: hidden;
+ }
+ 
+ .image-holder
+ {
+ width: 2400px;
+ background-color: #E5EDF8;
+ height: 400px;
+ clear: both;
+ position: relative;
+ transition: left 2s;
+ }
+ 
+ .slider-image
+ {
+ float: left;
+ margin: 0px;
+ padding: 0px;
+ position: relative;
+ width: 800px;
+ height: 400px;
+ }
+ 
+ #slider-image-1:target ~ .image-holder
+ {
+ left: 0px;
+ }
+ 
+ #slider-image-2:target ~ .image-holder
+ {
+ left: -800px;
+ }
+ 
+ #slider-image-3:target ~ .image-holder
+ {
+ left: -1600px;
+ }
+ 
+ .button-holder
+ {
+ position: relative;
+ top: -20px;
+ }
+ 
+ .slider-change
+ {
+ display: inline-block;
+ height: 10px;
+ width: 10px;
+ border-radius: 5px;
+ background-color: #E5EDF8;
+ }
+
+ 
+ .custom-counter {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+  .custom-counter li {
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+  }
+  
+  .custom-counter li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: rgb(0,200,200);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
+  
+ 
+
+  footer{
+     
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 10px;
+        background-color: #FF9473;
+        opacity: 0.9;
+        text-align: right;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        height: 6%;
+}
+  
+
+form{
+    font-family:'Raleway',sans-serif;
+    margin: auto;
+   
+   
+}
+
+fieldset{
+    border:2px solid #FF9473;
+    border-radius:40px 0 40px 0;
+    background-color:#EEE;
+    color:#333;
+}
+
+
+
+  input[name="vname"], input[name="vemail"], input[name="vnumber"], input[name="dname"], input[name="demail"], input[name="dnumber"], input[name="dmount"]{
+    float: right;
+    clear: both;
+    width: 30%;
+    border:2px solid #C2D6FF;
+    border-radius: 5px;
+    margin: 1px;
+  }
+
+  .forRightAlignment{
+    float: right;
+    clear: both;
+    
+  }
+  
+  .abc{
+    display:inline;
+  }
+
+  .forButton{
+      display: block;
+      margin: auto;
+      background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .simple-subscription-form {
+    background: #0c3e5f;
+    color: #fefefe;
+    padding: 1.5rem;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+ 
+  #forEventButton{
+    display: block;
+    margin: auto;
+    background: #4B99AD;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 2%;
+  }
+
+  .input-group-field{
+      
+      display: block;
+      margin: auto;
+      width: 30%;
+      border:2px solid #C2D6FF;
+      border-radius: 5px;
+  }
+
+.forScrolling{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sectionScrolling{
+    margin-left: 4%;
+}
+
+#forNewsHeading{
+    display: block;
+    margin: auto;
+    background: #4B99AD;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+ 
+
